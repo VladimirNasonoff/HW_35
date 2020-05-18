@@ -97,4 +97,3 @@ TC-01.96 (97 is prime number),97,true
 TC-01.97 (98 is not prime number),98,false
 TC-01.98 (99 is not prime number),99,false
 TC-01.99 (100 is not prime number),100,false
-

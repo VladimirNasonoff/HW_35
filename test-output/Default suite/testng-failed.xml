@@ -5,7 +5,7 @@
     <classes>
       <class name="core.PrimeNumberCheckerTestOld">
         <methods>
-          <include name="test" invocation-numbers="9"/>
+          <include name="test"/>
         </methods>
       </class> <!-- core.PrimeNumberCheckerTestOld -->
     </classes>
