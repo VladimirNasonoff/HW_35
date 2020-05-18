@@ -8,3 +8,4 @@ TC-01.07 (8 is not prime number),8,false
 TC-01.08 (9 is not prime number),9,false
 TC-01.09 (10 is not prime number),10,false
 TC-01.10 (11 is prime number),11,true
+
