@@ -21,6 +21,12 @@
 		<hamcrest.version>2.0.0.0</hamcrest.version>
 		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
 		<surefire.version>2.22.2</surefire.version>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin -->
+		<info-reports.version>3.0.0</info-reports.version>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-site-plugin -->
+		<site.version>3.7.1</site.version>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jxr-plugin -->
+		<jxr.version>3.0.0</jxr.version>
 	</properties>
 
 	<dependencies>
@@ -40,10 +46,9 @@
 	<build>
 		<plugins>
 			<plugin>
-				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-site-plugin -->
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-site-plugin</artifactId>
-				<version>3.7.1</version>
+				<version>${site.version}</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -65,16 +70,14 @@
 				<version>${surefire.version}</version>
 			</plugin>
 			<plugin>
-				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jxr-plugin -->
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jxr-plugin</artifactId>
-				<version>3.0.0</version>
+				<version>${jxr.version}</version>
 			</plugin>
 			<plugin>
-				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin -->
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-project-info-reports-plugin</artifactId>
-				<version>3.0.0</version>
+				<version>${info-reports.version}</version>
 			</plugin>
 		</plugins>
 	</reporting>
